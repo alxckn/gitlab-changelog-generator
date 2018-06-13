@@ -1,23 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    gitlab (3.6.1)
-      httparty
+    gitlab (3.7.0)
+      httparty (~> 0.13.0)
       terminal-table
     httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
-    json (1.8.3)
-    multi_xml (0.5.5)
-    slop (4.2.1)
-    terminal-table (1.5.2)
+    json (1.8.6)
+    multi_xml (0.6.0)
+    slop (4.6.2)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    unicode-display_width (1.4.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  gitlab
+  gitlab (~> 3.6, >= 3.6.1)
   slop
 
 BUNDLED WITH
-   1.11.2
+   1.16.2
